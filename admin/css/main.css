@@ -1,0 +1,80 @@
+body {
+	background-color: var(--color-background);
+	margin: 8px;
+}
+
+.fullWidth {
+	width: 100%;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+
+
+.box {
+	background-color: var(--color-box);
+	margin: 16px 0;
+	border: 2px solid var(--color-border);
+	padding: 20px;
+}
+.box2 {
+	background-color: var(--color-box2);
+	margin: 20px 20px;
+	padding: 20px;
+	border: 2px solid var(--color-border);
+}
+.box2:hover {
+	background-color: var(--color-box2-hover);
+}
+.box3 {
+	background-color: var(--color-box2);
+	margin: 20px 20px;
+	padding: 20px;
+	border: 2px solid var(--color-border);
+}
+.box2 img{
+	width: 80%;
+}
+.box2 input, .box2 textarea, .box3 input, .box3 textarea {
+	width: 100%;
+}
+
+.invisibleBox2 {
+	margin: 0 20px;
+	padding: 0 20px;
+	border: 2px none;
+}
+
+
+.flex2, .flex, .flex3 {
+	display: flex;
+}
+.flex2 a, .flex2 div, .flex3 a, .flex3 div {
+	color: inherit;
+	text-decoration: inherit;
+}
+.flex2 a, .flex2 div {
+	/*width: 50%;*/
+}
+.flex3 a, .flex3 div {
+	width: 33%;
+}
+
+
+.flex2 .flex_left {
+	flex: 0 0 50%;
+}
+.flex2 .flex_right {
+	flex: 1;
+}
+
+.flex2 .leftForm {
+	flex: 0 0 30%;
+}
+.flex2 .rightForm {
+	flex: 1;
+}
+

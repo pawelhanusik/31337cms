@@ -1,0 +1,19 @@
+table {
+	border-collapse: collapse;
+	margin: auto;
+	width: 100%;
+}
+table input{
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid var(--color-border);
+	text-align: center;
+	padding: 8px 12px;
+}
+
+table .colFitContents {
+	width: 1%;
+	white-space: nowrap;
+}

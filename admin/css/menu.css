@@ -1,0 +1,21 @@
+#menu {
+    overflow: hidden;
+	background-color: var(--color-menu);
+	border: 2px solid var(--color-border);
+	margin: 0 auto;
+	z-index: 100;
+	padding: 0;
+}
+
+#menu a {
+    float: left;
+    display: block;
+	color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: var(--color-menu-hover);
+    color: var(--color-menu-text-hover);
+}
